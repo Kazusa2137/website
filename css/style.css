@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'sans-serif';
+    font-size: 15px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;  /* テキストを水平方向の中央に揃える */
+}
+/* ヘッダー（白いバー）のデザイン */
+.top-bar {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;  /* テキストを水平方向の中央に揃える */
+}
+
+
+/* ナビゲーションメニュー */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* コンテンツの余白調整 */
+.content {
+    margin-top: 80px; /* ヘッダーと重ならないように余白を確保 */
+    padding: 20px;
+}
